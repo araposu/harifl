@@ -1,4 +1,4 @@
-.PHONY: setup
+make setup.PHONY: setup
 setup:
 	flutter channel beta
 	flutter upgrade

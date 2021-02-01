@@ -8,6 +8,7 @@ import 'constants.dart';
 import 'ui/app_theme.dart';
 import 'ui/detail/detail_page.dart';
 import 'ui/home/home_page.dart';
+import 'ui/lgtm/lgtm_page.dart';
 import 'ui/signIn/sign_in_page.dart';
 
 class App extends HookWidget {
@@ -22,7 +23,7 @@ class App extends HookWidget {
       theme: lightTheme,
       darkTheme: darkTheme,
       themeMode: setting ?? ThemeMode.light,
-      home: HomePage(),
+      home: LgtmPage(),
       localizationsDelegates: L10n.localizationsDelegates,
       supportedLocales: L10n.supportedLocales,
       routes: {
