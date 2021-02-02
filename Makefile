@@ -1,6 +1,6 @@
 make setup.PHONY: setup
 setup:
-	flutter channel beta
+	flutter channel stable
 	flutter upgrade
 	flutter pub get
 	npm install

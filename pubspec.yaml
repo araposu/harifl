@@ -8,11 +8,6 @@ environment:
   sdk: '>=2.10.0 <3.0.0'
   flutter: '>=1.21.0'
 
-dependency_overrides:
-  # For DateTime and l10n
-  # TODO: Workaround https://github.com/FirebaseExtended/flutterfire/issues/4342
-  intl: ^0.17.0-nullsafety.2
-
 dependencies:
   flutter:
     sdk: flutter
@@ -21,7 +16,7 @@ dependencies:
 
   # For Google and Firebase
   firebase_core: ^0.5.3
-  firebase_auth: ^0.18.4+1
+  firebase_auth: ^0.18.0
   google_sign_in: ^4.5.9
   firebase_crashlytics: ^0.2.3
   firebase_performance: ^0.4.2
@@ -35,7 +30,7 @@ dependencies:
   dio_http_cache: ^0.2.11
   dio_firebase_performance: ^0.2.0
   # For User-Agent Client Hints
-  ua_client_hints: ^1.0.3
+  ua_client_hints:
 
   # For Model
   json_serializable: ^3.5.0
@@ -52,7 +47,7 @@ dependencies:
   cupertino_icons: ^1.0.0
   google_fonts: ^1.1.1
   cached_network_image: ^2.5.0
-  flutter_svg: ^0.19.2+1
+  flutter_svg:
   flutter_staggered_grid_view: ^0.3.2
 
   # For Utilities
